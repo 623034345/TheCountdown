@@ -9,6 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UILabel *dayLab;
+@property (weak, nonatomic) IBOutlet UILabel *hhLab;
+@property (weak, nonatomic) IBOutlet UILabel *mmLab;
+@property (weak, nonatomic) IBOutlet UILabel *ssLab;
 
 
 @end
